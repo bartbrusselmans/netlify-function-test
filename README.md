@@ -2,6 +2,21 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Initial setup
+
+Install the netlify cli
+
+`npm install -g netlify-cli`
+
+## Run a netlify dev server
+
+### `netlify dev`
+
+Runs the app in the development mode whilst being able to use netlify functions.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
 ## Available Scripts
 
 In the project directory, you can run:
