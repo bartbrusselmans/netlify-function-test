@@ -1,0 +1,11 @@
+[functions]
+  directory = "netlify/functions"
+
+  # Specifies `esbuild` for functions bundling
+  node_bundler = "esbuild"
+
+[[redirects]]
+    from = "/api/*"
+    to = ".netlify/functions/:splat"
+    status = 200
+    force = true # COMMENT: ensure that we always redirect
